@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+
+  .todo-container {
+    max-width: 400px; 
+    margin: 10px; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-tarefa {
+    padding: 12px;
+    width: 350px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 1px #b3b3b3;
+  }
+
+  .input-tarefa:hover{
+    background-color: #ebebeb;
+    transition: 0.5s;
+    margin: 5px;
+  }
+
+  .btn-tarefa {
+    font-family: 'Poppins', sans-serif;
+    padding: 8px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #98cbff;
+    border: none;
+    box-shadow: 0 0 8px 1px #b3b3b3;
+    color: snow;
+  }
+
+  .btn-tarefa:hover{
+    background-color: #81c0ff;
+    transition: 0.5s;
+  }
+
+  h1{
+    color: 0 0 8px 1px #b3b3b3;
+    text-shadow: 1px 1px 3.5px rgba(0, 0, 0, 0.5);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    box-shadow: 0 0 8px 1px #b3b3b3;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .apagar {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 8px 1px #d1d1d1;
+  }
+
+  .apagar:hover{
+    background-color: #e7331f;
+    transition: 0.5s;
+  }
